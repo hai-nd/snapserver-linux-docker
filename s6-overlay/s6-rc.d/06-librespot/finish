@@ -1,0 +1,3 @@
+#!/command/with-contenv sh
+echo "librespot-api exited with code $?"
+exit 0

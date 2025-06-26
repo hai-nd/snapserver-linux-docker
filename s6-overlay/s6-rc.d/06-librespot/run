@@ -1,0 +1,12 @@
+#!/command/with-contenv sh
+
+echo "Starting librespot-api"
+exec java -jar /usr/local/bin/librespot-api-1.6.3.jar \
+  --name "Librespot" \
+  --bitrate 320 \
+  --backend pipe \
+  --device /tmp/librespot-java \
+  --disable-audio-cache \
+  --cache /tmp \
+  --format S16LE \
+  --mixer softvol
