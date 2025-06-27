@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/hai-nd/snapserver-linux-docker/raw/main/haingo_snapserver.png" alt="snapserver-linux-docker banner" />
+  <img src="https://github.com/hai-nd/snapserver-linux-docker/raw/main/snapserver.png" alt="snapserver-linux-docker banner" />
 </p>
 
 # snapserver-linux-docker
