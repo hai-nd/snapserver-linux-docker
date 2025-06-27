@@ -1,10 +1,14 @@
+<p align="center">
+  <img src="https://github.com/hai-nd/snapserver-linux-docker/raw/main/haingo_snapserver.png" alt="snapserver-linux-docker banner" />
+</p>
+
 # snapserver-linux-docker
 
 A custom Alpine-based Docker image for running Snapserver with metadata and streaming plugins on Linux systems.
 
 ## ✨ Features
 
-- **Snapserver v0.29.0** with [Snapweb UI](https://github.com/badaix/snapweb)
+- **Snapserver v0.31.0** with [Snapweb UI](https://github.com/badaix/snapweb)
 - **librespot-java** for Spotify playback with metadata support
 - **Shairport-sync** for AirPlay streaming (with pipe output)
 - Metadata plugin support for Mopidy, MPD, Librespot
