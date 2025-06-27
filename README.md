@@ -75,7 +75,7 @@ docker compose up -d
 ## 🚀 Build Instructions
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/snapserver-linux-docker.git
+git clone https://github.com/hai-ngo/snapserver-linux-docker.git
 cd snapserver-linux-docker
 docker build -f Alpine-dockerfile -t snapserver-linux .
 ```
