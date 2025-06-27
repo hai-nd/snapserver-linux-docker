@@ -49,7 +49,7 @@ docker run -d \
   --network host \
   --restart unless-stopped \
   -v /etc/snapserver/config:/config \
-  haingo/snapserver-linux-docker:latest
+  haingo65/snapserver-linux-docker:latest
 ```
 ### Option 2: Use `docker-compose.yml`
 
@@ -60,7 +60,7 @@ version: '3.8'
 
 services:
   snapserver:
-    image: haingo/snapserver-linux-docker:latest
+    image: haingo65/snapserver-linux-docker:latest
     container_name: snapserver
     network_mode: host
     restart: unless-stopped
