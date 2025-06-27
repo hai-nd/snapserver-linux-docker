@@ -39,6 +39,38 @@ A custom Alpine-based Docker image for running Snapserver with metadata and stre
 │       └── 06-librespot/
 └── README.md
 ```
+## 🐳 Docker Setup
+
+### Option 1: Run with `docker run`
+
+```bash
+docker run -d \
+  --name snapserver \
+  --network host \
+  --restart unless-stopped \
+  -v /etc/snapserver/config:/config \
+  haingo/snapserver-linux-docker:latest
+```
+### Option 2: Use `docker-compose.yml`
+
+Create a `docker-compose.yml` file:
+
+```yaml
+version: '3.8'
+
+services:
+  snapserver:
+    image: haingo/snapserver-linux-docker:latest
+    container_name: snapserver
+    network_mode: host
+    restart: unless-stopped
+    volumes:
+      - /etc/snapserver/config:/config
+```
+- Then run:
+```bash
+docker compose up -d
+```
 
 ## 🚀 Build Instructions
 
